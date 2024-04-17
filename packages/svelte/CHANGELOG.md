@@ -1,5 +1,13 @@
 # svelte
 
+## 5.0.0-next.108
+
+### Patch Changes
+
+- breaking: warn on slots and event handlers in runes mode, error on `<slot>` + `{@render ...}` tag usage in same component ([#11203](https://github.com/sveltejs/svelte/pull/11203))
+
+- fix: take outroing elements out of the flow when animating siblings ([#11208](https://github.com/sveltejs/svelte/pull/11208))
+
 ## 5.0.0-next.107
 
 ### Patch Changes
